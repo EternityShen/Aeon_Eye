@@ -1,0 +1,33 @@
+[global]
+scan_interval = 5
+decide_interval = 5
+shrink_cooldown = 100
+is_debug = true
+
+[targets]
+packages = [
+    "com.tencent.mm",
+    "com.taobao.taobao",  
+    "com.jingdong.app.mall",
+]
+
+[strategies."com.tencent.mm"]
+freeze_timeout = 100
+back_timeout = 100
+enable_anon_shrink = true
+enable_file_shrink = true
+aggressive = false
+
+[strategies."com.taobao.taobao"]
+freeze_timeout = 100
+back_timeout = 100
+enable_anon_shrink = true
+enable_file_shrink = true
+aggressive = false
+
+[strategies."com.jingdong.app.mall"]
+freeze_timeout = 100
+back_timeout = 100
+enable_anon_shrink = true
+enable_file_shrink = true
+aggressive = false

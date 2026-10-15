@@ -1,0 +1,6 @@
+id=ShenAeonEye
+name=AeonEye
+versionCode=20261015
+version=v0.1bate
+author=ShenEternity
+description=一个简单的内存压制模块,可以精准控制每个应用触发ZRAM回收的时机,达到内存压制的效果。
